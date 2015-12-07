@@ -1,0 +1,289 @@
+[ 2015-12-08T00:00:05+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0530s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0523s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0569s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0504s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0524s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0535s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2015-12-08T00:01:01+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003171s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0523s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0529s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0518s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0527s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2015-12-08T00:02:17+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0481s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0461s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0468s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0546s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0452s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2015-12-08T00:04:16+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002464s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0523s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0558s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0532s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0608s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0687s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001976s ]
+
+[ 2015-12-08T00:04:38+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0672s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0505s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0515s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.1546s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0503s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0770s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001794s ]
+
+[ 2015-12-08T00:05:41+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0449s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0458s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0484s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0477s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0458s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2015-12-08T00:07:02+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0725s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0627s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0464s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001385s ]
+
+[ 2015-12-08T00:08:33+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0470s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0449s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001826s ]
+
+[ 2015-12-08T00:08:52+08:00 ] ::1 /bk/Admin/Page/updateInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0468s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0462s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0589s ]
+NOTIC: [8] Use of undefined constant funiqid - assumed 'funiqid' E:\xampp\htdocs\bk\Application\Admin\Controller\PageController.class.php 第 37 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\bk\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\xampp\htdocs\bk\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::dbwrite() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0520s ]
+SQL: UPDATE `bk_page` SET `value`='5665af137022c.jpg' WHERE `key` = 'INDEX_IMG' [ RunTime:0.0571s ]
+SQL: SELECT * FROM `bk_page` WHERE `key` = 'INDEX_IMG' AND `value` = '5665af137022c.jpg' LIMIT 1   [ RunTime:0.0479s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::dbwrite() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 17 行.
+SQL: UPDATE `bk_page` SET `value`='5665af1371983.jpg' WHERE `key` = 'EXTEND_IMG' [ RunTime:0.0549s ]
+SQL: SELECT * FROM `bk_page` WHERE `key` = 'EXTEND_IMG' AND `value` = '5665af1371983.jpg' LIMIT 1   [ RunTime:0.0474s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::dbwrite() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 17 行.
+SQL: UPDATE `bk_page` SET `value`='111' WHERE `key` = 'INDEX_TITLE' [ RunTime:0.0570s ]
+SQL: SELECT * FROM `bk_page` WHERE `key` = 'INDEX_TITLE' AND `value` = '111' LIMIT 1   [ RunTime:0.0510s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::dbwrite() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 17 行.
+SQL: UPDATE `bk_page` SET `value`='11' WHERE `key` = 'INDEX_TEXT' [ RunTime:0.0559s ]
+SQL: SELECT * FROM `bk_page` WHERE `key` = 'INDEX_TEXT' AND `value` = '11' LIMIT 1   [ RunTime:0.0467s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::dbwrite() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 17 行.
+SQL: UPDATE `bk_page` SET `value`='11' WHERE `key` = 'EXTEND_TITLE' [ RunTime:0.0511s ]
+SQL: SELECT * FROM `bk_page` WHERE `key` = 'EXTEND_TITLE' AND `value` = '11' LIMIT 1   [ RunTime:0.0468s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::dbwrite() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 17 行.
+SQL: UPDATE `bk_page` SET `value`='11' WHERE `key` = 'EXTEND_TEXT' [ RunTime:0.0504s ]
+SQL: SELECT * FROM `bk_page` WHERE `key` = 'EXTEND_TEXT' AND `value` = '11' LIMIT 1   [ RunTime:0.0563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.336724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.336839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2015-12-08T00:08:54+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/1EF576B7-8FA9-2867-441A-BC97D61A0460
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001985s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0431s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='1EF576B7-8FA9-2867-441A-BC97D61A0460' )  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0463s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+

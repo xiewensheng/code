@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="Zh">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<title>Joke Management System</title>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="col-md-9 headLeft">
+						<h1>Joke Management System</h1>
+					</div>
+					<div class="col-md-3 headRight">
+						<p>Welcome Admin</p>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="adminSideBar">
+					<ul>
+						<li><a href="">首页</a></li>
+						<li><a href="">笑话管理</a></li>
+						<li class="select"><a href="">作者管理</a></li>
+						<li><a href="">分类管理</a></li>
+						<li><a href="">用户管理</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-9 maincontent">
+				<div class="breadcrumbox">
+					<ol class="breadcrumb">
+						<li><a href="#">首页</a></li>
+						<li class="active">作者管理</li>
+					</ol>
+				</div>
+				<div class="oprateBar">
+					<button class="btn btn-sm"><i class="fa fa-plus"></i>添加</button>
+					<button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>批量删除</button>
+				</div>
+				<div class="List">
+					<table class="table table-bordered">
+						<tr>
+							<td>ID</td>
+							<td>姓名</td>
+							<td>邮箱</td>
+							<td>操作</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>authorA</td>
+							<td>authorA@vinceok.com</td>
+							<td>
+								<button type="submit" class="btn btn-info btn-sm"><i class="fa fa-edit"> </i> 编辑</button>
+								<button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-trash"> </i> 删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>authorB</td>
+							<td>authorB@vinceok.com</td>
+							<td>
+								<button type="submit" class="btn btn-info btn-sm"><i class="fa fa-edit"> </i> 编辑</button>
+								<button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-trash"> </i> 删除</button>
+							</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>authorC</td>
+							<td>authorC@vinceok.com</td>
+							<td>
+								<button type="submit" class="btn btn-info btn-sm"><i class="fa fa-edit"> </i> 编辑</button>
+								<button type="submit" class="btn btn-danger btn-sm"><i class="fa fa-trash"> </i> 删除</button>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

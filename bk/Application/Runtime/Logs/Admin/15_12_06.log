@@ -1,0 +1,958 @@
+[ 2015-12-06T20:52:52+08:00 ] ::1 /bk/Admin/UpLoad/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.046000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016509s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0548s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0486s ]
+ERR: 模板不存在:./Application/Admin/View/./Application/Admin/View/upload.html.html
+
+[ 2015-12-06T20:52:55+08:00 ] ::1 /bk/Admin/Oper/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015715s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.159301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.159391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.052985s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.053054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011245s ]
+
+[ 2015-12-06T20:53:06+08:00 ] ::1 /bk/Admin/Oper/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `bk_user` WHERE ( username='admin' )  [ RunTime:0.0541s ]
+SQL: UPDATE `bk_user` SET `username`='admin',`password`='e10adc3949ba59abbe56e057f20f883e',`time_update`='1449406386',`token`='D713DC41-C8E3-38AF-A8B2-B6420AF23CDC' WHERE `id` = 1 [ RunTime:0.0898s ]
+
+[ 2015-12-06T20:53:06+08:00 ] ::1 /bk/Admin/Page/pageIndex/token/D713DC41-C8E3-38AF-A8B2-B6420AF23CDC.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-12-06T20:56:07+08:00 ] ::1 /bk/Admin/Oper/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0377s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0622s ]
+SQL: SELECT * FROM `bk_user` WHERE ( username='admin' )  [ RunTime:0.0357s ]
+SQL: UPDATE `bk_user` SET `username`='admin',`password`='e10adc3949ba59abbe56e057f20f883e',`time_update`='1449406567',`token`='651B96C0-BAF3-878F-4F57-0F62E0368482' WHERE `id` = 1 [ RunTime:0.0500s ]
+
+[ 2015-12-06T20:56:08+08:00 ] ::1 /bk/Admin/Page/pageIndex/token/651B96C0-BAF3-878F-4F57-0F62E0368482.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.1542s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.3896s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\5991aa64e2aaaa78ddd9fdf561aed954.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030463s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2015-12-06T20:58:29+08:00 ] ::1 /bk/Admin/Page/pageIndex/token/651B96C0-BAF3-878F-4F57-0F62E0368482.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0377s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\5991aa64e2aaaa78ddd9fdf561aed954.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2015-12-06T20:58:32+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0703s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0743s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0743s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.3182s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.1305s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090870s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2015-12-06T20:58:36+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0417s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0373s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0544s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0383s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0539s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010706s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-12-06T20:58:39+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0399s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.2514s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0382s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.2792s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-12-06T20:58:40+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0344s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0349s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0375s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0323s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2015-12-06T20:58:42+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0347s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0389s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0372s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0523s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.1058s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0636s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2015-12-06T20:58:43+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0966s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.2804s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.2152s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0583s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000986s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2015-12-06T20:59:36+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0522s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0572s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0926s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.1073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-12-06T20:59:36+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0382s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0385s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0363s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-12-06T20:59:37+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0344s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0357s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0378s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0555s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2015-12-06T20:59:39+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0382s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0366s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0487s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2015-12-06T20:59:41+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0476s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0672s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0645s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0379s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2015-12-06T20:59:45+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0449s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0934s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.2468s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000762s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+
+[ 2015-12-06T20:59:53+08:00 ] ::1 /bk/Admin/Team/addTeamPage/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0349s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0349s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000751s ]
+
+[ 2015-12-06T21:01:16+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.2514s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0364s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0323s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0597s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0336s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2015-12-06T21:01:18+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000767s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0637s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0370s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0642s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0388s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0372s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2015-12-06T21:01:20+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0382s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0421s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0714s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0383s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2015-12-06T21:01:21+08:00 ] ::1 /bk/Admin/Team/teamInfo/token/651B96C0-BAF3-878F-4F57-0F62E0368482
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0495s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0769s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='651B96C0-BAF3-878F-4F57-0F62E0368482' )  [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.1194s ]
+SQL: SHOW COLUMNS FROM `bk_team` [ RunTime:0.0369s ]
+SQL: SELECT * FROM `bk_team`  [ RunTime:0.0649s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\7c91a8daf37b35b9ad1ec0065300239b.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2015-12-06T21:01:28+08:00 ] ::1 /bk/Admin/Oper/doLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.1247s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.2596s ]
+SQL: SELECT * FROM `bk_user` WHERE ( username='admin' )  [ RunTime:0.1991s ]
+SQL: UPDATE `bk_user` SET `username`='admin',`password`='e10adc3949ba59abbe56e057f20f883e',`time_update`='1449406888',`token`='5D6892CA-4CF2-C614-7946-1631A5E559B4' WHERE `id` = 1 [ RunTime:0.0812s ]
+
+[ 2015-12-06T21:01:28+08:00 ] ::1 /bk/Admin/Page/pageIndex/token/5D6892CA-4CF2-C614-7946-1631A5E559B4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0961s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.1378s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0579s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\5991aa64e2aaaa78ddd9fdf561aed954.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2015-12-06T21:02:17+08:00 ] ::1 /bk/Admin/Page/pageIndex/token/5D6892CA-4CF2-C614-7946-1631A5E559B4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.1306s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0338s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+NOTIC: [8] Undefined variable: user E:\xampp\htdocs\bk\Application\Runtime\Cache\Admin\5991aa64e2aaaa78ddd9fdf561aed954.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000858s ]
+
+[ 2015-12-06T21:03:26+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.1269s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0371s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0616s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.2568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2015-12-06T21:03:31+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0353s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0484s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.1177s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0331s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2015-12-06T21:04:19+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0578s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0820s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0971s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2015-12-06T21:04:22+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000775s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0741s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.1153s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0456s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0720s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0397s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001026s ]
+
+[ 2015-12-06T21:05:30+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.3244s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0832s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.4695s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2015-12-06T21:05:32+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0484s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0838s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0573s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0801s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.1010s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.1219s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001531s ]
+
+[ 2015-12-06T21:07:34+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.1088s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0652s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0596s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.2184s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0456s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2015-12-06T21:07:36+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0594s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.1685s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0372s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.1253s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.2595s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2015-12-06T21:07:37+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0354s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0359s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0345s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0362s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0361s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2015-12-06T21:07:39+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.4667s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0366s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0347s ]
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0456s ]
+NOTIC: [8192] Non-static method Common\Common\CommonUtil::Selectphoto() should not be called statically, assuming $this from incompatible context E:\xampp\htdocs\bk\Application\Admin\Model\PageModel.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `bk_page` [ RunTime:0.0345s ]
+SQL: SELECT * FROM `bk_page`  [ RunTime:0.0679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2015-12-06T22:00:58+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012528s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0391s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0372s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.226107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.226183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017816s ]
+
+[ 2015-12-06T22:00:58+08:00 ] ::1 /bk/Admin/Page/pageInfo/token/5D6892CA-4CF2-C614-7946-1631A5E559B4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012586s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0453s ]
+SQL: SHOW COLUMNS FROM `bk_user` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `bk_user` WHERE ( token='5D6892CA-4CF2-C614-7946-1631A5E559B4' )  [ RunTime:0.0388s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+
+[ 2015-12-06T22:01:00+08:00 ] ::1 /bk/Admin/Oper/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033807s ]
+

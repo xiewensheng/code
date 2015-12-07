@@ -1,0 +1,35 @@
+*{margin:0;padding:0;}
+body{background:#edeff0;font: 14px/1.5 "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;}
+a:hover{text-decoration:none;}
+.header{margin-bottom:20px;background:url("../images/login_bg.jpg");color:#fff;padding:10px 0;}
+.headLeft h1{margin:15px 0;padding:0;}
+.headRight{height:69px;line-height:69px;text-align:right;}
+.headRight p{font-size:18px;color:#eee;}
+
+.adminSideBar{background:#fff;box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);}
+.adminSideBar ul li{position:relative;margin:0 15px;list-style:none;border-bottom:1px solid #edf1f2;}
+.adminSideBar ul li a{color:#14191e;}
+.adminSideBar ul li a:hover{color:#444;}
+.adminSideBar ul .select a{color:#c00;}
+.adminSideBar ul .select a:hover{color:#c00;}
+.adminSideBar ul .select:before{content:"";position:absolute;top:0;left:-16px;height:60px;width:3px;background:#c00;}
+.adminSideBar ul li a{display:block;height:60px;line-height:60px;padding:0 10px;color:#787d82;}
+
+.maincontent{background:#fff;box-shadow:0 2px 4px rgba(0, 0, 0, 0.1);padding-bottom:15px;}
+.mainStatus{margin-bottom:20px;border-bottom:1px solid #eee;}
+.mainStatus .col-md-3{border-right:1px solid #d9d9d9;height:120px;margin:15px 0;text-align:center;}
+.mainStatus .col-md-3:nth-child(4){border:0;}
+.mainStatus .col-md-3 h3{margin-top:10px;color:#666;}
+.mainStatus .col-md-3 h2{color:#999;}
+.changeBox{color:#c00;}
+
+.breadcrumbBox{margin-bottom:15px;border-bottom:1px solid #e8e8e8;}
+.breadcrumb{margin:15px 0 5px;padding:0;background:#fff;}
+.oprateBar{margin-bottom:10px;}
+.List .table tr:nth-child(1) td{font-weight:600;}
+
+#preview{width:60%;height:250px;border:3px dashed #d9d9d9;margin:15px;padding:30px 15px;overflow:hidden;}
+#preview img{max-height:100%;width:auto;}
+#preview_one{width:60%;height:250px;border:3px dashed #d9d9d9;margin:15px;padding:30px 15px;overflow:hidden;}
+#preview_one img{max-height:100%;width:auto;}
+#imghead {filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);}
